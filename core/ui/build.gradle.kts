@@ -1,5 +1,5 @@
 plugins {
-    alias(libs.plugins.mju.android.library)
+    alias(libs.plugins.mju.android.compose.library)
 }
 
 android {
