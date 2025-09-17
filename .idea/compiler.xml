@@ -2,7 +2,6 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="17">
-      <module name="MultiModuleTest.core.navigation" target="21" />
       <module name="MultiModuleTest.data.di" target="21" />
     </bytecodeTargetLevel>
   </component>

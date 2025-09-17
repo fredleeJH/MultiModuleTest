@@ -9,15 +9,17 @@ internal fun Project.configureBuildConfig(
 ) {
     commonExtension.apply {
         defaultConfig {
+            val properties = gradleLocalProperties(rootDir, providers)
+
             buildConfigField(
                 "String",
                 "BASE_URL",
-                gradleLocalProperties(rootDir, providers).getProperty("base.url")
+                "\"${properties.getProperty("base.url") ?: "https://default-url.com/"}\""
             )
             buildConfigField(
                 "String",
                 "KAKAO_NATIVE_KEY",
-                gradleLocalProperties(rootDir, providers).getProperty("kakao.native.key")
+                "\"${properties.getProperty("kakao.native.key") ?: ""}\""
             )
         }
 

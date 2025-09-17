@@ -17,10 +17,10 @@ class MjuFeaturePlugin : Plugin<Project> {
 
             dependencies {
                 implementation(libs.getLibrary("kotlinx.serialization.json"))
-//                implementation(project(":core:ui"))
-//                implementation(project(":core:designsystem"))
-//                implementation(project(":core:model"))
-//                implementation(project(":core:navigation"))
+                implementation(project(":core:ui"))
+                implementation(project(":core:designsystem"))
+                implementation(project(":core:model"))
+                implementation(project(":core:navigation"))
                 implementation(libs.getBundle("compose"))
             }
         }

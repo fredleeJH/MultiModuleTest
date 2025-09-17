@@ -122,6 +122,7 @@ mju-android-test = { id = "mju.android.test", version = "unspecified" }
 mju-android-unitTest = { id = "mju.android.unittest", version = "unspecified" }
 mju-android-hilt = { id = "mju.android.hilt", version = "unspecified" }
 mju-feature = { id = "mju.feature", version = "unspecified" }
+mju-data = { id = "mju.data", version = "unspecified"}
 
 [libraries]
 # Android Gradle Plugin

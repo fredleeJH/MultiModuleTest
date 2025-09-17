@@ -48,5 +48,9 @@ gradlePlugin {
             id = "mju.feature"
             implementationClass = "MjuFeaturePlugin"
         }
+        register("mjuData") {
+            id = "mju.data"
+            implementationClass = "MjuDataPlugin"
+        }
     }
 }

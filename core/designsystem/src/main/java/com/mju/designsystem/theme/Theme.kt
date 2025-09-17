@@ -48,7 +48,7 @@ fun ProvideByeBooColorsAndTypography(
 }
 
 @Composable
-fun ByeBooTheme(
+fun MjuTheme(
     darkTheme: Boolean = false,
     content: @Composable () -> Unit
 ) {
