@@ -1,4 +1,4 @@
-package com.mju.navigation
+package com.mju.designsystem
 
 import org.junit.Test
 
